@@ -1,0 +1,11 @@
+---
+import HertaComponent from "../components/Herta.vue";
+import Layout from "../layouts/Layout.astro";
+import "../assets/herta.css";
+
+const title = "黑塔转圈圈";
+---
+
+<Layout title={title}>
+	<HertaComponent client:load />
+</Layout>
